@@ -15,3 +15,6 @@ div {
   height: 200px;
   background-color: red;
 }
+div:hover {
+  background-color: blue;
+}
