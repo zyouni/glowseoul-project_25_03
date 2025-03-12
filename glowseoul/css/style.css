@@ -10,11 +10,27 @@ html > body {
 }
 
 /* 커스텀 */
-div {
-  width: 200px;
-  height: 200px;
-  background-color: pink;
+.top-bar {
+  position: absolute;
+  border: 2px solid pink;
+  top: 0;
+  left: 0;
+  width: 100%;
 }
-div:hover {
-  background-color: blue;
+
+.logo {
+  display: inline-block;
+}
+.logo img {
+  width: 40%;
+  height: 40%;
+  max-height: 40%;
+}
+
+.top-bar__inner {
+  border: 2px solid blue;
+  padding-top: 40px;
+  padding-inline: 3.5%;
+  width: 100%;
+  display: flex;
 }
